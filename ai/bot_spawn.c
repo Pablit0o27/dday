@@ -152,7 +152,7 @@ void BOT_Respawn(edict_t* self)
 
 	// hold in place briefly
 	self->client->ps.pmove.pm_flags = PMF_TIME_TELEPORT;
-	self->client->ps.pmove.pm_time = 14;
+	self->client->ps.pmove.pm_time = 1000;
 
 	self->client->respawn_time = level.time;
 	/* MetalGod Husk of a function commented out
